@@ -1,0 +1,12 @@
+step 1:
+	.initial setup && created database.py
+
+Step 3: Database Models & pgvector
+	Now we will create the database schema to store the resumes
+	and their mathematical representations (embeddings).
+
+Phase 2(Resum upload and Text extraction):
+	The Endpoint: In your main.py, create a new asynchronous endpoint: @app.post("/resumes/").
+	Make the endpoint accept a file upload
+
+Phase 3: Generating Embeddings & Saving to Database
